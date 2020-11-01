@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -10,7 +10,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size:40%;
 }
 
 .App {
@@ -20,25 +20,24 @@ html {
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 4rem;
   letter-spacing: 0.1rem;
-  font-style: italic;
-  color: #40b48e;
-  text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
+  color: #c4c4c4;
+  /* text-shadow: 0 0.2rem 5rem rgb(119, 115, 115); */
   text-transform: uppercase;
   margin: 4rem 0;
 }
 
 .search-form {
-  width: 60rem;
+  width: 25%;
   height: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d3d3d3;
-  border-radius: 0.5rem;
+  background-color: #7B904B;
+  border-radius: 15px;
   margin-bottom: 5rem;
-  box-shadow: 1rem 2rem 5rem #aaa;
+  /* box-shadow: 1rem 2rem 5rem #aaa; */
   position: relative;
 }
 
@@ -48,7 +47,7 @@ h1 {
   left: 0;
   background-color: rgb(233, 72, 72);
   width: calc(100% - 0.4rem);
-  border-radius: 0.5rem;
+  border-radius: 15px;
   padding: 0.2rem;
 }
 
@@ -65,7 +64,7 @@ h1 {
   border: none;
   border-bottom: 0.1rem solid #ccc;
   margin: 0 0.5rem;
-  border-radius: 0.5rem;
+  border-radius: 5px;
   height: 3rem;
 }
 
@@ -78,7 +77,7 @@ h1 {
 .search-form input[type="submit"] {
   width: 25%;
   text-transform: uppercase;
-  background-color: #40b48e;
+  background-color: #58641D;
   color: #fff;
 }
 
@@ -96,7 +95,7 @@ h1 {
   margin: 3rem;
   display: flex;
   flex-direction: column;
-  background-color: #d3d3d3;
+  background-color: white;
   padding: 2rem;
   position: relative;
   border-radius: 0.5rem;
@@ -105,6 +104,8 @@ h1 {
 
 .recipe h2 {
   background-color: rgba(161, 161, 161, 0.7);
+
+  /* background-color: rgba(161, 161, 161, 0.7); */
   border-radius: 0.5rem;
   padding: 0.3rem 0.5rem;
   position: absolute;
@@ -131,7 +132,7 @@ h1 {
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
-  background-color: #40b48e;
+  background-color: #58641D;
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
@@ -139,7 +140,7 @@ h1 {
 
 .ingredient-list {
   margin-top: 1rem;
-  background-color: #f0f0f0;
+  background-color: #58641D;
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
@@ -149,8 +150,8 @@ h1 {
 }
 
 .ingredient-text {
-  font-size: 1.5rem;
-  color: #888;
+  font-size: 2rem;
+  color: white;
 }
 
 .ingredient-weight {

@@ -9,16 +9,11 @@ function App() {
   const[ recipes, setRecipes ]= useState([]);
   const[ alert, setAlert ] = useState("");
 
-
-
   const APP_ID = '439d148a';
   const APP_KEY = '656b9f2c04daa032243be7bf3454c466';
-  const url=`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
-
-  
+  const url=`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;  
 
   const getData = async ()=>{
-
     if(query !== ""){
     
     const result = await Axios.get(url);
@@ -47,7 +42,7 @@ const onChange=(e)=>{
 
   return (
     <div className="App">
-      <h1 onClick={getData}>Food searching App</h1>
+      <h1 onClick={getData}>Bon Appetit</h1>
       <form className="search-form" onSubmit={onSubmit}>
         { alert !== "" && <Alert alert={alert}/>}
         <input type="text" placeholder="Search Food" autoComplete="off" onChange={onChange} value={query}/>
