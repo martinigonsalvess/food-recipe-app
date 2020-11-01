@@ -10,7 +10,7 @@ const Recipe = ({recipe}) => {
 
     return (
         <div className="recipe">
-            <h2>{label}</h2>
+        <a href={url} target="_blank" rel="noopener noreferrer"> <h2>{label}</h2></a>
             <img src={image} alt={label}/>
             
            {/*  <a href={url} target="_blank" rel="noopener noreferrer">URL</a> */}
